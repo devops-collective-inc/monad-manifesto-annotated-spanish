@@ -1,0 +1,9 @@
+# Capítulo 9 - La consola de administración de Monad (MMC)
+Monad proporciona un conjunto rico de Cmdlets de servicio de marco de administración para facilitar la creación de consolas de administración. Estos servicios reducen los costos de desarrollo y de pruebas para producir UIs y consolas de administración, a la vez que permiten una experiencia integrada y administrativa. Los servicios se utilizan para producir una consola de administración integrada, pero también pueden ser utilizados por terceros o por la propia TI para implementar su propia consola de gestión. El objetivo es ser capaz de proporcionar el 50-70% de una herramienta genérica de administración GUI de forma gratuita sólo mediante la construcción del tipo correcto de Cmdlets. Monad ofrece los siguientes recursos y servicios:
+
+1. Un entorno de ejecución de secuencias de comandos que proporciona a las GUI un acceso uniforme y coherente a recursos locales y remotos.
+2. Una interfaz integrada y un entorno de línea de comandos para que las interacciones GUI se muestren en una consola de línea de comandos. Los usuarios pueden usar esto para aprender la capa de automatización y también pueden ejecutar directamente acciones de línea de comandos. Este mecanismo además proporciona el soporte para la grabación/reproducción de macros.
+3. Scripts de aplicaciones específicas. La aplicación puede exponer sus funciones internas (por ejemplo, botones, pantallas, estructuras de datos internas, etc.) a través de Cmdlets para permitir scripting específico de aplicaciones, depuración y compatibilidad.
+4. Controles de la interfaz de usuario base asociados con MMMs específicos. (Por ejemplo, controles de navegación, controles del ciclo de vida, controles de diagnóstico).
+5. Conjunto rico de mensajes de error de base que se localizarán por MMC.
+6. Un marco de interfaz de usuario declarativa para permitir GUI de administración personalizada basada en metadatos.
